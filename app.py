@@ -9,16 +9,12 @@ from collections import Counter
 import joblib
 import json
 
-        
-
-df = pd.read_csv('movie_metadata.csv')
-print('Shape:', df.shape)
 
 
 
 
 st.set_page_config(page_title='Movie Success Predictor', layout='centered')
-st.title('🎬 Movie Success Predictor (CSV upload)')
+st.title('🎬 Movie Success Predictor')
 
 # Define paths for artifacts - adjust if not using /tmp
 model_path = '/tmp/movie_prediction_artifacts/best_movie_model.joblib'
