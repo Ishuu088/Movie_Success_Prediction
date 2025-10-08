@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd, numpy as np, joblib, json, os
-pip install streamlit pandas numpy joblib scikit-learn
-
+from sklearn.preprocessing import StandardScaler
 
 streamlit
 pandas
