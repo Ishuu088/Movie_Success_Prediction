@@ -1,5 +1,14 @@
 import streamlit as st
 import pandas as pd, numpy as np, joblib, json, os
+pip install streamlit pandas numpy joblib scikit-learn
+
+
+streamlit
+pandas
+numpy
+joblib
+scikit-learn
+
 st.set_page_config(page_title='Movie Success Predictor', layout='centered')
 st.title('🎬 Movie Success Predictor (CSV upload)')
 
